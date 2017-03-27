@@ -16,6 +16,8 @@
 		42FA1E541E88ED8100F44EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FA1E521E88ED8100F44EF9 /* LaunchScreen.storyboard */; };
 		42FA1E5F1E88ED8100F44EF9 /* ASTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA1E5E1E88ED8100F44EF9 /* ASTestTests.m */; };
 		42FA1E6A1E88ED8100F44EF9 /* ASTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA1E691E88ED8100F44EF9 /* ASTestUITests.m */; };
+		42FA1E781E88EFC200F44EF9 /* new.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FA1E771E88EFC200F44EF9 /* new.storyboard */; };
+		42FA1E7B1E88EFD300F44EF9 /* ASModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA1E7A1E88EFD300F44EF9 /* ASModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		42FA1E651E88ED8100F44EF9 /* ASTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FA1E691E88ED8100F44EF9 /* ASTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTestUITests.m; sourceTree = "<group>"; };
 		42FA1E6B1E88ED8100F44EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FA1E771E88EFC200F44EF9 /* new.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = new.storyboard; sourceTree = "<group>"; };
+		42FA1E791E88EFD300F44EF9 /* ASModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASModel.h; sourceTree = "<group>"; };
+		42FA1E7A1E88EFD300F44EF9 /* ASModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +112,13 @@
 				42FA1E451E88ED8100F44EF9 /* AppDelegate.m */,
 				42FA1E471E88ED8100F44EF9 /* ViewController.h */,
 				42FA1E481E88ED8100F44EF9 /* ViewController.m */,
+				42FA1E791E88EFD300F44EF9 /* ASModel.h */,
+				42FA1E7A1E88EFD300F44EF9 /* ASModel.m */,
 				42FA1E4A1E88ED8100F44EF9 /* Main.storyboard */,
 				42FA1E501E88ED8100F44EF9 /* Assets.xcassets */,
 				42FA1E521E88ED8100F44EF9 /* LaunchScreen.storyboard */,
 				42FA1E551E88ED8100F44EF9 /* Info.plist */,
+				42FA1E771E88EFC200F44EF9 /* new.storyboard */,
 				42FA1E4D1E88ED8100F44EF9 /* ASTest.xcdatamodeld */,
 				42FA1E411E88ED8100F44EF9 /* Supporting Files */,
 			);
@@ -255,6 +263,7 @@
 				42FA1E541E88ED8100F44EF9 /* LaunchScreen.storyboard in Resources */,
 				42FA1E511E88ED8100F44EF9 /* Assets.xcassets in Resources */,
 				42FA1E4C1E88ED8100F44EF9 /* Main.storyboard in Resources */,
+				42FA1E781E88EFC200F44EF9 /* new.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FA1E7B1E88EFD300F44EF9 /* ASModel.m in Sources */,
 				42FA1E491E88ED8100F44EF9 /* ViewController.m in Sources */,
 				42FA1E461E88ED8100F44EF9 /* AppDelegate.m in Sources */,
 				42FA1E431E88ED8100F44EF9 /* main.m in Sources */,
@@ -518,6 +528,7 @@
 				42FA1E701E88ED8100F44EF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42FA1E711E88ED8100F44EF9 /* Build configuration list for PBXNativeTarget "ASTestTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +537,7 @@
 				42FA1E731E88ED8100F44EF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42FA1E741E88ED8100F44EF9 /* Build configuration list for PBXNativeTarget "ASTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +546,7 @@
 				42FA1E761E88ED8100F44EF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
